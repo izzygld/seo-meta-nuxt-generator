@@ -1,0 +1,40 @@
+{
+  "name": "@izzygld/seo-meta-nuxt-generator",
+  "version": "1.0.0",
+  "description": "A package to generate SEO metadata from a post (NUXT 3)",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izzygld/seo-meta-nuxt-generator.git"
+  },
+  "keywords": [
+    "seo",
+    "metadata",
+    "generator",
+    "wpgraphql",
+    "headless",
+    "nuxt",
+    "nuxt3",
+    "nuxt3-module",
+    "nuxt-module",
+    "nuxt3-module"
+  ],
+  "author": "Izzy Gold",
+  "license": "MIT",
+  "dependencies": {
+    "he": "^1.2.0",
+    "striptags": "^3.2.0"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "@types/he": "^1.2.3"
+  }
+}

@@ -1,30 +1,3 @@
-# SEO Meta Generator for NUXT 3 WPGraphQL Yoast SEO Plugin
-
-## Currently returning SEO data for:
-
-- Pages
-- Posts
-- Custom post types
-
- ### _(coming soon)_
-- Categories _(coming soon)_
-- Custom taxonomies _(coming soon)_
-- Yoast Configuration _(coming soon)_
-  - Webmaster verification
-  - Social profiles
-  - Schemas
-  - Breadcrumbs
-  - Application/ld+json _(Google Schema)_
-
-If there is any Yoast SEO data that is not currently returned, please raise an issue so we can add it to the roadmap.
-
-## Usage
-Download the repository via GitHub or npm:
-
-To query for the Yoast SEO Data, simply add the seo object to your query:
-
-### Post Type Data
-```javascript
 import generateSeoMeta from './index';
 
 const post = {
@@ -86,21 +59,5 @@ const twitterOptions = {
 };
 
 const { meta, seoMeta, head } = generateSeoMeta(post, twitterOptions);
-```
 
-## Requirements
-Download the repository via GitHub or npm:
-
-To query for the Yoast SEO Data, simply add the seo object to your query:
-
-## Preferred Built-ins
-1. [WPGraphQL](https://github.com/wp-graphql)
-2. [wp-graphql-yoast-seo](https://github.com/ashhitch/wp-graphql-yoast-seo)
-
-
-## Support
-Feel free to open an issue on GitHub if you have any questions or suggestions.
-[Open an issue](https://github.com/izzygld/seo-meta-nuxt-generator/issues)
-
-You can also reach out to me on Twitter:
-[X/Twitter: @izzygld261](https://twitter.com/izzygld261)
+// Use meta, seoMeta, and head as needed
