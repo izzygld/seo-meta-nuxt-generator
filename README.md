@@ -19,7 +19,7 @@
 If there is any Yoast SEO data that is not currently returned, please raise an issue so we can add it to the roadmap.
 
 ## Usage
-Download the repository via GitHub or npm:
+Download the repository via [GitHub](https://github.com/izzygld/seo-meta-nuxt-generator) or [npm](https://www.npmjs.com/package/@izzygld/seo-meta-nuxt-generator):
 
 To query for the Yoast SEO Data, simply add the seo object to your query:
 
