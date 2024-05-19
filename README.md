@@ -23,6 +23,11 @@ Download the repository via GitHub or npm:
 
 To query for the Yoast SEO Data, simply add the seo object to your query:
 
+
+## Demo
+You can preview the SEO Meta Generator for NUXT 3 WPGraphQL Yoast SEO Plugin in action [here](https://github.com/izzygld/seo-meta-nuxt-generator/blob/main/src/demo.ts).
+
+
 ### Post Type Data
 ```javascript
 import generateSeoMeta from './index';

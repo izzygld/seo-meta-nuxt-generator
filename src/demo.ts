@@ -1,5 +1,7 @@
 import generateSeoMeta from './index';
 
+
+// Define a post object - this should come from your CMS or API
 const post = {
   seo: {
     canonical: "https://example.com",
