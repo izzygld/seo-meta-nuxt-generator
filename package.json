@@ -1,6 +1,6 @@
 {
   "name": "@izzygld/seo-meta-nuxt-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SEO Meta Generator for NUXT 3 WPGraphQL Yoast SEO Plugin",
   "main": "index.js",
   "publishConfig": {

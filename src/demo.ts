@@ -17,7 +17,7 @@ const post = {
       altText: "Example alt text",
       caption: "Example caption",
       mediaDetails: {
-        height: 800,
+        height: 630,
         width: 1200,
         file: "example.jpg",
       },
